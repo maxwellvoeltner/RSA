@@ -1,0 +1,293 @@
+
+.background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: auto;
+  margin: 0 auto;
+}
+
+.title {
+  margin-top: 70px;
+  font-size: 70px;
+  color: #9ce027;
+  margin-bottom: 90px;
+  font: optional;
+}
+
+.sheldon {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 60px;
+}
+
+.primeContainer {
+  display: flex;
+  flex-direction: column; /* Arrange children vertically */
+  align-items: flex-start; /* Align items to the left */
+  background-color: rgba(73, 15, 234, 0.5);
+  padding: 5px;
+  border-radius: 10px;
+  border: 4px solid rgb(255, 165, 0, .5); /* Set border width, style, and color */
+  margin-right: 15px;
+  color: aqua;
+}
+
+.primelabel {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.primeInput {
+  background-color: rgba(73, 15, 234, 0.5);
+  padding: 8px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  color: rgb(60, 161, 166);
+  border-color: rgb(255, 165, 0, .5);
+  border-radius: 10px; /* Make the border-radius larger for rounder corners */
+  font-size: 14px;
+  width: 100px;
+  transition: border-color 0.3s ease;
+}
+
+.generateKeyButton {
+  align-self: center;
+  margin-top: 20px;
+  transition: border-color 0.3s ease;
+  border-radius: 10px;
+  border: 2px solid rgb(255, 165, 0, .5);
+}
+
+.messageContainer {
+  display: flex;
+  color: blanchedalmond;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: rgba(142, 179, 49, 0.5);
+  border: 4px solid rgb(255, 165, 0, .5);
+  margin-right: 15px;
+}
+
+.message-label {
+  font-size: 17px;
+  font-weight: 200;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+  margin-top: 3px;
+}
+
+.message-input {
+  background-color: rgba(73, 15, 234, 0.5);
+  padding: 8px;
+  margin-left: 10px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: rgb(60, 161, 166);
+  border-color: rgb(255, 165, 0, .5);
+  border-radius: 10px;
+  font-size: 14px;
+  width: 150px;
+  transition: border-color 0.3s ease;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-around; /* Space buttons evenly */
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 10px;
+  background-color: blueviolet;
+  border-radius: 10px;
+  border: 2px solid rgb(255, 165, 0, .5);
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: darkviolet; /* Darker purple on hover */
+}
+
+.output-message-container {
+  color: blanchedalmond;
+  background-color: rgba(116, 2, 2, 0.5);
+  justify-items: center;
+  text-align: center;
+  font-size: 17px;
+  padding: 5px;
+  border-radius: 10px;
+  border: 4px solid rgb(255, 165, 0, .5);
+}
+
+.output-message {
+  font-size: 30px;
+  font-weight: 200;
+}
+
+.cards {
+  margin-top: 20px;
+  width: 80%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card1 {
+  background-color: rgba(230, 124, 115, .5);
+  background-color: b;
+  height: 250px;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+  border: 5px solid rgb(255, 165, 0, .5);
+  text-align: center;
+}
+
+.card2 {
+  background-color: rgba(123, 170, 247, 0.5);
+  background-color: b;
+  height: 250px;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+  border: 5px solid rgb(255, 165, 0, .5);
+  text-align: center;
+}
+
+.card3 {
+  background-color: rgba(65, 179, 117, 0.5);
+  background-color: b;
+  height: 250px;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+  border: 5px solid rgb(255, 165, 0, .5);
+  text-align: center;
+}
+
+.card4 {
+  background-color: rgba(243, 203, 77, 0.5);
+  height: 250px;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+  border: 5px solid rgb(255, 165, 0, .5);
+  text-align: center;
+}
+
+.card5 {
+  background-color: rgba(186, 103, 200, 0.5);
+  background-color: b;
+  height: 250px;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+  border: 5px solid rgb(255, 165, 0, .5);
+  text-align: center;
+}
+
+.card6 {
+  background-color: rgba(117, 10, 78, 0.5);
+  background-color: b;
+  height: 250px;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+  border: 5px solid rgb(255, 165, 0, .5);
+  text-align: center;
+}
+
+.card7 {
+  background-color: rgba(202, 103, 22, 0.5);
+  background-color: b;
+  height: 250px;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+  border: 5px solid rgb(255, 165, 0, .5);
+  text-align: center;
+}
+
+.img-container {
+  background-color: indigo;
+  border-radius: 10px;
+  display: flex;
+  justify-self: center;
+  justify-content: center;
+}
+
+img {
+  width: auto;
+  height: 200px;
+  border-radius: 5px;
+  justify-self: center;
+}
+
+.step-number {
+  color:#f3f3f3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-self: center;
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.words {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-self: center;
+  gap: 4px;
+  margin: 4px;
+}
+
+.slick-slide > div {
+  margin: 5px 20px;
+}
+
+.slick-dots li button:before {
+  color: rgb(15, 236, 51) !important;
+  font-size: 12px; /* Adjust size as needed */
+}
+
+.slick-dots li.slick-active button:before {
+  color: rgb(15, 236, 51) !important;
+  font-size: 12px; /* Adjust size as needed */
+}
+
+/* Optional: Adjust the button size */
+.slick-dots li button {
+  width: 50px; /* Adjust size as needed */
+  height: 50px; /* Adjust size as needed */
+}
+
+/* Style the arrows */
+.slick-prev:before, .slick-next:before {
+  color: orange !important; /* Change arrow color as needed */
+}
+
+/* Ensure the parent container is positioned */
+.slick-next {
+  right: -45px !important;
+}
